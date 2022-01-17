@@ -1,0 +1,11 @@
+deployment:
+2  password: ${PASSWD}
+3  theme_id: ${THEMEID}
+4  store: ${SHOP}
+5  timeout: 60s
+6  ignore_files:
+7    - config/settings_data.json
+8    - /(locales\/[a-z]{2}\.json)/    
+9    - /(locales\/[a-z]{2}\-[A-Z]{2}\.json)/
+10    - /(locales\/[a-z]{2}\.default\.json)/
+11    - templates/*.json

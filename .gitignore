@@ -1,0 +1,17 @@
+# ignore changes to local config file
+2config.yml
+3src/theme/locales/*.json
+4!src/theme/locales/*.schema.json
+5src/theme/templates/*.json
+6
+7.vscode/extensions.json
+8
+9# OS generated files #
+10######################
+11.DS_Store
+12.DS_Store?
+13._*
+14.Spotlight-V100
+15.Trashes
+16ehthumbs.db
+17Thumbs.db

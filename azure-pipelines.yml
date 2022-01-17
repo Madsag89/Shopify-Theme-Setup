@@ -1,0 +1,40 @@
+trigger:
+  branches:
+    include:
+    - master
+    - release/*
+  batch: True
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: master
+jobs:
+- job: BuildProcess
+  displayName: Build process
+  pool:
+    name: Dynamicweb-Staging
+  steps:
+  - checkout: self
+  - task: CopyFiles@2
+    displayName: 'Copy src to: dist'
+    inputs:
+      SourceFolder: src/theme
+      TargetFolder: dist
+      CleanTargetFolder: true
+  - task: CopyFiles@2
+    displayName: 'Copy azure.config.yml to dist:'
+    inputs:
+      Contents: azure.config.yml
+      TargetFolder: dist
+  - task: rename@0
+    displayName: 'rename: dist/azure.config.yml'
+    inputs:
+      SourceFile: dist/azure.config.yml
+      NewName: config.yml
+  - task: PublishPipelineArtifact@1
+    displayName: Publish Pipeline Artifact
+    inputs:
+      path: dist
+      artifactName: novicell.pilgrim.b2c.themes.2021
+...
