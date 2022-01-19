@@ -130,7 +130,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .footer-block--newsletter:only-child {
@@ -373,7 +373,6 @@ noscript .localization-selector.link {
 
 .footer__copyright {
   text-align: center;
-  margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 750px) {

@@ -145,8 +145,10 @@
   .image-with-text--overlap .image-with-text__content {
     height: auto;
     width: calc(100% + 4rem);
-    min-width: calc(100% + 10rem);
+    min-width: calc(100% + 2rem);
     transform: translate(-5rem, 0);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.17); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.17);
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {
