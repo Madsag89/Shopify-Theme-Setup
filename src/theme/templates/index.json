@@ -60,17 +60,7 @@
       },
       "block_order": ["column1", "column2"],
       "settings": {}
-    },
-
-    "image_with_text": {
-        "type": "image-with-text",
-        "blocks": {
-      },
-      "presets": {
-        "name": "Image with text"
-      }
     }
-
   },
   "order": [
     "image_banner",

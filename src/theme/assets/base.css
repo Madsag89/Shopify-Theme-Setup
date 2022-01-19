@@ -1907,7 +1907,7 @@ input[type='checkbox'] {
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
     grid-template-columns: auto auto 1fr;
-    column-gap: 2rem;
+    column-gap: 4rem;
   }
 
   .header--top-center {

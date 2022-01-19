@@ -15,7 +15,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "settings": { "color_scheme": "background-1" }
+            "settings": { "color_scheme": "accent1" }
           }
         },
         "block_order": ["announcement-bar-0"],
@@ -40,7 +40,7 @@
           "blocks": {
             "announcement-bar-0": {
               "type": "announcement",
-              "settings": { "color_scheme": "background-1" }
+              "settings": { "color_scheme": "accent1" }
             }
           },
           "block_order": ["announcement-bar-0"],
@@ -66,7 +66,7 @@
             "text": { "type": "text", "settings": {} }
           },
           "block_order": ["menu", "text"],
-          "settings": { "color_scheme": "accent-1" }
+          "settings": { "color_scheme": "accent1" }
         }
       }
     }

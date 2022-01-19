@@ -22,16 +22,21 @@
 }
 
 @media screen and (min-width: 750px) {
+  /* Desktop image placement */
   .image-with-text__grid--reverse {
     flex-direction: row-reverse;
   }
 }
 
+
+/* Desktop image width */
 .image-with-text__media {
   background-color: transparent;
   min-height: 100%;
 }
 
+
+/* Small, large*/
 .image-with-text__media--small {
   height: 19.4rem;
 }
@@ -97,7 +102,7 @@
 }
 
 .image-with-text--overlap .image-with-text__content {
-  transform: translate(0 , -3rem);
+  transform: translate(0 , -6rem);
   width: 90%;
   margin: 0 auto; 
 }
@@ -140,8 +145,8 @@
   .image-with-text--overlap .image-with-text__content {
     height: auto;
     width: calc(100% + 4rem);
-    min-width: calc(100% + 4rem);
-    transform: translate(-4rem, 0);
+    min-width: calc(100% + 10rem);
+    transform: translate(-5rem, 0);
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {

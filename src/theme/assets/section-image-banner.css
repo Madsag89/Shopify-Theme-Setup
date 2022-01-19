@@ -6,6 +6,8 @@
 
 .banner__box {
   text-align: center;
+  background-color: transparent !important;
+  /*edit*/
 }
 
 @media only screen and (max-width: 749px) {
@@ -88,6 +90,7 @@
   .banner__content.banner__content--top-center {
     align-items: flex-start;
     justify-content: center;
+    background-color: blue;
   }
 
   .banner__content.banner__content--top-right {
