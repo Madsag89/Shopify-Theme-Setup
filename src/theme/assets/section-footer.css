@@ -474,6 +474,7 @@ noscript .localization-selector.link {
 
 .footer-block-image > img {
   height: auto;
+  background-color: black;
 }
 
 .footer-block__details-content .placeholder-svg {

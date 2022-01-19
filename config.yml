@@ -1,6 +1,6 @@
 development:
   password: shptka_5ab341db2922c437c15b5859aaba75da
-  theme_id: 128947978425
+  theme_id: 128947683513
   store: maj-development-1.myshopify.com
   directory: src/theme
   ignore_files:

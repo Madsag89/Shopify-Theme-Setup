@@ -149,6 +149,7 @@
     transform: translate(-5rem, 0);
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.17); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.17);
+      background-color: blue;
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {
@@ -165,6 +166,7 @@
 
   .image-with-text--overlap .image-with-text__media-item--middle {
     align-self: center;
+  
   }
 
   .image-with-text--overlap .image-with-text__media-item--bottom {
