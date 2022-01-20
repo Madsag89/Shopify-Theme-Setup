@@ -817,6 +817,15 @@
         }
       }
     },
+    "marquee":{
+      "name": "Marquee",
+      "settings":{
+        "marquee_border":{
+          "label": "Test"
+        }
+      }
+    },
+
     "image-banner": {
       "name": "Image banner",
       "settings": {
@@ -1091,7 +1100,7 @@
             "label": "Overlap"
           },
           "options__3": {
-            "label": "Overlap-test"
+            "label": "Overlap"
           },
           
           "label": "Content layout"

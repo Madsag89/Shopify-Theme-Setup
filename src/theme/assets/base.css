@@ -1877,6 +1877,8 @@ input[type="checkbox"] {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
+
+
 .header {
   display: grid;
   grid-template-areas: "left-icon heading icons";
@@ -2352,17 +2354,20 @@ details-disclosure > details {
 
 /* Marquee */
 
+.show-border-marquee{
+    border-top: 1px solid rgb(126, 126, 126);
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
+
 .marquee-container {
   overflow: hidden;
-  padding-top: 6rem;
+  margin-top: 6rem;
 }
 
 .marquee {
   margin: 0;
   display: inline-block;
-  padding: 2rem;
-  border-top: 1px solid rgb(126, 126, 126);
-  border-bottom: 1px solid rgb(126, 126, 126);
+  padding: 1rem;
 }
 
 .marquee-words {

@@ -1,14 +1,32 @@
 # ignore changes to local config file
-2config.yml
-6
-7.vscode/extensions.json
-8src/theme/config/settings_schema.js
-9# OS generated files #
-10######################
-11.DS_Store
-12.DS_Store?
-13._*
-14.Spotlight-V100
-15.Trashes
-16ehthumbs.db
-17Thumbs.db
+#2config.yml
+# 3src/theme/locales/*.json
+# 4!src/theme/locales/*.schema.json
+# 5src/theme/templates/*.json
+# 6
+# 7.vscode/extensions.json
+# 8src/theme/config/settings_schema.js
+# 9# OS generated files #
+# 10######################
+# 11.DS_Store
+# 12.DS_Store?
+# 13._*
+# 14.Spotlight-V100
+# 15.Trashes
+# 16ehthumbs.db
+# 17Thumbs.db
+
+# Shopify #
+###################
+config.yml
+config/settings_data.json
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
