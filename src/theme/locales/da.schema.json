@@ -330,6 +330,14 @@
             }
           }
         },
+        "marquee": {
+          "name": "Marquee",
+          "settings": {
+            "marquee_border": {
+              "label": "Test"
+            }
+          }
+        },
         "collection": {
           "name": "Kollektion",
           "settings": {
