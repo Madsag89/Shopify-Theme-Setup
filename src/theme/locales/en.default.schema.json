@@ -780,6 +780,9 @@
           "options__5": {
             "label": "Inverse"
           },
+          "options__6": {
+            "label": "Background-3"
+          },
           "label": "Color scheme"
         },
         "logo": {
@@ -1087,6 +1090,10 @@
           "options__2": {
             "label": "Overlap"
           },
+          "options__3": {
+            "label": "Overlap-test"
+          },
+          
           "label": "Content layout"
         },
         "mobile_content_alignment": {

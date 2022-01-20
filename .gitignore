@@ -1,11 +1,8 @@
 # ignore changes to local config file
 2config.yml
-3src/theme/locales/*.json
-4!src/theme/locales/*.schema.json
-5src/theme/templates/*.json
 6
 7.vscode/extensions.json
-8src/theme/config/settings_schema.json
+8src/theme/config/settings_schema.js
 9# OS generated files #
 10######################
 11.DS_Store

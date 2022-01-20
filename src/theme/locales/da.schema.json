@@ -34,6 +34,9 @@
         "colors_background_2": {
           "label": "Baggrund 2"
         },
+        "colors_background_3": {
+          "label": "Baggrund 3"
+        },
         "gradient_accent_1": {
           "label": "Markering 1 – graduering"
         },
@@ -685,6 +688,9 @@
           "options__4": {
             "label": "Baggrund 2"
           },
+          "options__6": {
+            "label": "Baggrund 3"
+          },
           "options__5": {
             "label": "Omvendt"
           },
@@ -713,6 +719,9 @@
           },
           "options__4": {
             "label": "Baggrund 2"
+          },
+           "options__6": {
+            "label": "Baggrund 6"
           },
           "options__5": {
             "label": "Omvendt"
@@ -965,6 +974,9 @@
           },
           "options__2": {
             "label": "Overlapning"
+          },
+          "options__3": {
+            "label": "Overlapning-test"
           },
           "label": "Indholdslayout"
         },

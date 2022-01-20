@@ -1,0 +1,40 @@
+{{ 'base.css' | asset_url | stylesheet_tag }}
+
+<div class="marquee-container">
+    <div class="marquee">
+        <div class="marquee-words"> 
+            {{ section.settings.marquee }}
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+ "name": "Marquee",
+ "settings": [
+   {
+    "type": "text",
+    "id": "marquee",
+    "label": "Marquee text"
+    },
+    {
+    "type": "range",
+    "id": "text_length",
+    "min": 50,
+    "max": 250,
+    "step": 10,
+    "default": 100,
+    "unit": "t:sections.marquee.settings.text_length.unit",
+    "label": "t:sections.header.settings.logo_width.label"
+    }
+  ],
+
+  "presets": [
+    {
+     "name": "Marquee",
+     "category":"Custom"
+     }
+    ]
+}
+{% endschema %}
